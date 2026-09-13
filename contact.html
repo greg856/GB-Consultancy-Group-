@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — GB Consultancy Group</title>
+<meta name="description" content="Contact GB Consultancy Group for sports infrastructure advisory, project management, and legal counsel enquiries.">
+<link rel="icon" href="assets/images/logo-white.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Primary">
+    <a class="brand" href="index.html">
+      <img src="assets/images/logo-white.png" alt="GB Consultancy Group">
+      <span class="brand-text">GB Consultancy Group<span>Sports Infrastructure &amp; Advisory</span></span>
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="partners.html">Strategic Partners</a></li>
+      <li><a href="footprint.html">EU/UK Footprint</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a class="btn btn-ghost" href="contact.html">Enquire</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links">☰</button>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="hero" style="padding-bottom:2rem;">
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="container hero-inner">
+      <p class="hero-eyebrow">Contact</p>
+      <h1>Start a conversation about your development.</h1>
+      <p class="lede">Tell us about your project and the right member of our advisory team will respond within two business days.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container split" style="align-items:start;">
+      <div>
+        <form id="contact-form" novalidate>
+          <div class="form-grid">
+            <div>
+              <label for="full-name">Full name *</label>
+              <input type="text" id="full-name" name="full-name" required autocomplete="name">
+            </div>
+            <div>
+              <label for="email">Email address *</label>
+              <input type="email" id="email" name="email" required autocomplete="email">
+            </div>
+            <div>
+              <label for="company">Company / Organisation</label>
+              <input type="text" id="company" name="company" autocomplete="organization">
+            </div>
+            <div>
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="">Select…</option>
+                <option>Ireland</option>
+                <option>Poland</option>
+                <option>United Kingdom</option>
+                <option>Other EU Member State</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="full">
+              <label for="message">Tell us about your project *</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <div class="full consent-row">
+              <input type="checkbox" id="gdpr-consent" name="gdpr-consent" required>
+              <p>I consent to GB Consultancy Group Limited processing the personal data submitted in this form in order to respond to my enquiry, in accordance with the <a href="#" data-open-modal="modal-privacy" style="text-decoration:underline;">Privacy Policy</a>. *</p>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary mt-lg">Submit Enquiry</button>
+          <div class="form-msg" role="status"></div>
+        </form>
+      </div>
+
+      <div>
+        <h3>Registered Office</h3>
+        <p>GB Consultancy Group Limited<br>
+        [Insert registered office address]<br>
+        Ireland</p>
+
+        <h3 style="margin-top:2rem;">General Enquiries</h3>
+        <p>Email: [insert contact email]<br>
+        Phone: [insert contact number]</p>
+
+        <h3 style="margin-top:2rem;">Company Registration</h3>
+        <p>CRO Number: [XXXXXXX]<br>
+        Incorporated under the laws of Ireland.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <img src="assets/images/logo-white.png" alt="GB Consultancy Group" style="height:38px;margin-bottom:1rem;">
+        <p class="footer-legal">
+          GB Consultancy Group Limited (trading as GB Consultancy Group and JB Consultancy Group) is a private company limited by shares, incorporated under the laws of Ireland.<br><br>
+          Company Registration Number (CRO): [XXXXXXX — insert CRO number]<br>
+          Registered Office: [Insert registered office address, Ireland]
+        </p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="partners.html">Strategic Partners</a></li>
+          <li><a href="footprint.html">EU/UK Footprint</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#" data-open-modal="modal-privacy">Privacy Policy</a></li>
+          <li><a href="#" data-open-modal="modal-terms">Terms of Use</a></li>
+          <li><a href="#" data-open-modal="modal-cookies">Cookie Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year></span> GB Consultancy Group Limited. All rights reserved.</span>
+      <span>Incorporated in Ireland · Operating across IE, PL &amp; UK</span>
+    </div>
+  </div>
+</footer>
+
+<div class="cookie-banner" id="cookie-banner" role="dialog" aria-live="polite" aria-label="Cookie consent">
+  <p>We use essential cookies to operate this site, and optional analytics cookies to understand how it is used. You can accept or reject non-essential cookies at any time. See our <a href="#" data-open-modal-from-banner="modal-cookies" style="text-decoration:underline;">Cookie Policy</a> for details.</p>
+  <div class="cookie-actions">
+    <button class="btn btn-primary" data-cookie-accept>Accept All</button>
+    <button class="btn btn-ghost" data-cookie-reject>Reject Non-Essential</button>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modal-privacy" aria-hidden="true">
+  <div class="modal" role="dialog" aria-labelledby="privacy-title">
+    <button class="modal-close" aria-label="Close">✕</button>
+    <h2 id="privacy-title">Privacy Policy</h2>
+    <p>This Privacy Policy explains how GB Consultancy Group Limited ("we", "us") collects, uses, and protects personal data in accordance with the EU General Data Protection Regulation (GDPR) and the Irish Data Protection Act 2018.</p>
+    <h3>Data We Collect</h3>
+    <p>Contact details submitted via our enquiry form (name, email, company, message content), and, where consented, anonymised analytics data relating to site usage.</p>
+    <h3>Legal Basis for Processing</h3>
+    <p>We process enquiry data on the basis of your consent and our legitimate interest in responding to business enquiries. Analytics cookies are only set with your explicit consent.</p>
+    <h3>Data Retention</h3>
+    <p>Enquiry data is retained for as long as necessary to manage the business relationship, and no longer than 24 months from last contact unless a legal obligation requires otherwise.</p>
+    <h3>Your Rights</h3>
+    <p>Under GDPR you have the right to access, rectify, erase, restrict, or port your personal data, and to object to processing. Requests can be sent to the contact address listed on our Contact page. You may also lodge a complaint with the Irish Data Protection Commission (dataprotection.ie).</p>
+    <p style="margin-top:1.5rem;color:var(--silver-dim);font-size:0.8rem;">Placeholder policy text — to be reviewed and finalised by qualified legal counsel prior to publication.</p>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modal-terms" aria-hidden="true">
+  <div class="modal" role="dialog" aria-labelledby="terms-title">
+    <button class="modal-close" aria-label="Close">✕</button>
+    <h2 id="terms-title">Terms of Use</h2>
+    <p>These Terms of Use govern access to and use of this website, operated by GB Consultancy Group Limited, a company incorporated under the laws of Ireland (CRO No. [XXXXXXX]).</p>
+    <h3>Use of Content</h3>
+    <p>All content on this site, including text, logos, and imagery, is the property of GB Consultancy Group Limited or its licensors and may not be reproduced without prior written consent.</p>
+    <h3>No Advice</h3>
+    <p>Content published on this site is general in nature and does not constitute legal, financial, or engineering advice. Formal advisory engagements are governed separately by signed client agreements.</p>
+    <h3>Governing Law</h3>
+    <p>These terms are governed by and construed in accordance with the laws of Ireland, and the courts of Ireland shall have exclusive jurisdiction over any disputes.</p>
+    <p style="margin-top:1.5rem;color:var(--silver-dim);font-size:0.8rem;">Placeholder policy text — to be reviewed and finalised by qualified legal counsel prior to publication.</p>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modal-cookies" aria-hidden="true">
+  <div class="modal" role="dialog" aria-labelledby="cookies-title">
+    <button class="modal-close" aria-label="Close">✕</button>
+    <h2 id="cookies-title">Cookie Policy</h2>
+    <p>This site uses two categories of cookies:</p>
+    <h3>Essential Cookies</h3>
+    <p>Required for the site to function correctly (e.g. remembering your cookie preference). These cannot be disabled.</p>
+    <h3>Analytics Cookies (Optional)</h3>
+    <p>Used only with your explicit consent, to understand aggregated, anonymised site usage. These are not set until you click "Accept All" on the cookie banner, and can be withdrawn at any time by clearing your browser storage for this site.</p>
+    <h3>Managing Your Preference</h3>
+    <p>You may change your cookie choice at any time by clearing your browser's site data and reloading the page, which will re-present the consent banner.</p>
+    <p style="margin-top:1.5rem;color:var(--silver-dim);font-size:0.8rem;">Placeholder policy text — to be reviewed and finalised by qualified legal counsel prior to publication.</p>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
